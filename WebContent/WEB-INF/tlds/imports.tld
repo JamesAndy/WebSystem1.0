@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>imports</short-name>
+    <tag>
+        <description>簡化css、js在頁面的引入方式</description>
+        <name>src</name>
+        <tag-class>org.jc.webBase.tag.staticFunction.baseStaticFunction</tag-class>
+        <body-content>JSP</body-content>
+        <attribute>
+            <description>相對static的路徑</description>
+            <name>path</name>
+            <required>false</required>    
+        </attribute>
+        <attribute>
+            <description>設定是js、css或是只載入基本套件</description>
+            <name>type</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+</taglib>
