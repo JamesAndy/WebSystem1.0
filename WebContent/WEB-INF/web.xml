@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://caucho.com/ns/resin">
+
+    <jsp-config>
+        <taglib>
+            <taglib-uri>jcWebTag</taglib-uri>
+            <taglib-location>/WEB-INF/tlds/imports.tld</taglib-location>
+        </taglib>
+    </jsp-config>
+
+</web-app>
